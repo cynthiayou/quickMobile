@@ -1,0 +1,149 @@
+$icon-size:55px;
+$primary: #3292a6;
+$icon-color: #008000;
+$primary-overlay: rgba(50,146,166,0.8);
+$dark-overlay:rgba(240,255,240,0.6);
+
+body{
+  margin-top: 155px;
+  overflow-x: hidden;
+}
+
+.navbar{
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background: #fff;
+
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 10px;
+  }
+}
+
+.carousel-item{
+  height: 450px;
+}
+
+.carousel-image-1{
+  background: url('../img/sb1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2{
+  background: url('../img/sb2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3{
+  background: url('../img/sb3.jpg');
+  background-size: cover;
+}
+
+.fa{
+  font-size: $icon-size;
+  color: $icon-color;
+}
+
+.dark-overlay{
+  position: absolute;
+  background-color: $dark-overlay;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-play{
+  position: relative;
+  min-height: 200px;
+  background: url('../img/s1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color:#fff;
+  a{
+    color: #fff;
+  }
+}
+
+#icon-boxes{
+  .card{
+    border: #444;
+  }
+
+  .card-body{
+    height: 300px;
+    background: #F5F5F5;
+    color: #778899;
+  }
+
+  .card-footer{
+    background: #F5F5F5;
+    border: 0;
+  }
+}
+
+#award-heading{
+  position: relative;
+  min-height: 200px;
+  background: url('../img/s6.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:#000;
+}
+
+#phone-header{
+  height: 200px;
+  background: url('../img/world_map.png');
+  background-position: -300px -60px;
+  background-attachment: fixed;
+  color: #2E8B57;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#faq{
+  background: #53bad1;
+
+  .card-body{
+    color: #8FBC8F;
+  }
+}
+
+#staff{
+  img{
+    margin-top: -50px;
+  }
+
+  .fa{
+    font-size: 25px;
+  }
+
+  .card:hover{
+    background: $primary;
+    color: #fff;
+
+    .fa{
+      color:#fff;
+    }
+  }
+
+  .card{
+    height:550px;
+  }
+}
+
+#contact-infor{
+  .card{
+    border: 0;
+  }
+}
+
+#info .fa {
+  color: #fff;
+  background: #778899;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 35px; }
